@@ -1,0 +1,35 @@
+.offers__antenna {
+  margin: 0;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  padding: 0;
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offers__icon-description {
+  display: block;
+}
+
+.offers {
+  display: flex;
+}
+
+.offers .item + .item {
+  margin-left: 30px;
+}
+
+.offers__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  padding-bottom: 10px;
+}
+.offers__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--contacts-color);
+}
